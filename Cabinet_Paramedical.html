@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabinet Paramédical</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Cabinet Paramédical</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#services">Nos Services</a></li>
+                    <li><a href="#team">Notre Équipe</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>À Propos</h2>
+            <p>Bienvenue dans notre cabinet paramédical où nous prenons soin de votre santé avec une équipe multidisciplinaire composée de kinésithérapeutes, podologues et ostéopathes.</p>
+        </section>
+
+        <section id="services">
+            <h2>Nos Services</h2>
+            <div class="services-container">
+                <div class="service">
+                    <h3>Kinésithérapie</h3>
+                    <p>Rééducation fonctionnelle, massages thérapeutiques, et plus.</p>
+                </div>
+                <div class="service">
+                    <h3>Podologie</h3>
+                    <p>Soins des pieds, semelles orthopédiques sur mesure.</p>
+                </div>
+                <div class="service">
+                    <h3>Ostéopathie</h3>
+                    <p>Approche globale pour traiter les douleurs musculo-squelettiques.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+            <h2>Notre Équipe</h2>
+            <div class="team-container">
+                <div class="team-member">
+                    <img src="kiné.jpg" alt="Kinésithérapeute">
+                    <h3>Nom Kiné</h3>
+                    <p>Spécialité</p>
+                </div>
+                <div class="team-member">
+                    <img src="podo.jpg" alt="Podologue">
+                    <h3>Nom Podologue</h3>
+                    <p>Spécialité</p>
+                </div>
+                <div class="team-member">
+                    <img src="osteo.jpg" alt="Ostéopathe">
+                    <h3>Nom Ostéopathe</h3>
+                    <p>Spécialité</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#" method="POST">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cabinet Paramédical. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
